@@ -1,0 +1,76 @@
+.auth-container {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.auth-form {
+    width: 100%;
+    max-width: 420px;
+    padding: 32px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.auth-title {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.loginLabel {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.loginButton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.formButton {
+    background-color: #00798c;
+    text-align: center;
+    border-radius: 4px;
+    padding: .25rem 1rem;
+    font-size: .875rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    border: 0;
+    line-height: inherit;
+}
+
+/*button:hover {*/
+/*    background-color: #1d4ed8;*/
+/*}*/

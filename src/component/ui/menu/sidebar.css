@@ -1,0 +1,114 @@
+.sidebarContainer {
+    height: 100%;
+    background-color: #ffffff;
+    padding: 1.1rem 1.1rem;
+    border-right: 1px solid rgba(209, 213, 219, 1);
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /*border: 1px solid red*/
+}
+
+.sidebarHeader {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.logoCircle {
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 30% 0, #4ade80, #16a34a 45%, #065f46 100%);
+    color: #f9fafb;
+    font-weight: 800;
+    font-size: 1.25rem;
+    box-shadow: 0 0 18px rgba(34, 197, 94, 0.45);
+}
+
+.sidebarTitle {
+    /*margin: 0;*/
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-size: 0.9rem;
+}
+
+.sidebarSubtitle {
+    /*margin: 0;*/
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+.sidebarBody {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebarMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebarSection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebarSectionLabel {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--text-muted);
+    /*margin: 0.7rem 0 0.2rem;*/
+}
+
+.sidebarSectionValue {
+    font-size: 0.86rem;
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.sidebarActive {
+    background: var(--bg-softer);
+    color: var(--primary-strong);
+    /*transform: translateX(2px);*/
+    border-radius: 999px;
+    padding: 0.42rem 0.7rem;
+}
+
+.sidebarFooter {
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 0.7rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebarProfile {
+    display: flex;
+    gap: 5px;
+}
+
+.sidebarAvatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: #111827;
+    border: 1px solid var(--border-subtle);
+}
