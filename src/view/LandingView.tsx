@@ -98,13 +98,13 @@ export const LandingView = () => {
                         </a>
 
                         <a
-                            href="https://tomiwaola.ca"
+                            href="https://my-portfolio-two-delta-48.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center space-x-2 text-[#2383e2] dark:text-[#529cca] hover:underline"
                         >
                             <span>🌐</span>
-                            <span>tomiwaola.ca</span>
+                            <span>my-portfolio</span>
                         </a>
                     </div>
 
