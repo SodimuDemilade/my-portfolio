@@ -17,6 +17,14 @@ export const ProjectView = () => {
 
                     {/* Featured Projects */}
                     <div className="space-y-8 pt-4">
+                        <ProjectCard
+                            emoji="💻"
+                            title="Jobbie"
+                            description="This job portal is a modern web application designed to help job seekers discover opportunities and manage their job search more efficiently. The platform allows users to browse available job listings, filter roles by location, skills, and employment type, and view detailed job descriptions to better understand each opportunity."
+                            image="/images/job.png"
+                            gradient="from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600"
+                            tags={["TypeScript", "React", "CSS"]}
+                        />
 
                         <ProjectCard
                             emoji="🚀"
@@ -58,11 +66,11 @@ export const ProjectView = () => {
 
                             <SmallProjectCard
                                 emoji="⚙️"
-                                title="LMS Admin"
-                                description="An admin portal for a learning management platform."
+                                title="OS Admin Dashboard"
+                                description="Simple dashboard application built with React for managing users, analytics, and settings."
                                 tags={["React", "TypeScript", "Node", "CSS"]}
                                 links={[
-                                    {label: "GitHub", url: "https://github.com/SodimuDemilade/lms-admin"},
+                                    {label: "GitHub", url: "https://github.com/SodimuDemilade/OS-Admin-Dashboard"},
                                 ]}
                             />
 
