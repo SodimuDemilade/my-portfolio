@@ -42,6 +42,9 @@ export const ProjectView = () => {
                             image="/images/bootcamp.png"
                             gradient="from-red-400 to-pink-500 dark:from-red-500 dark:to-pink-600"
                             tags={["JavaScript", "Express", "Node", "MongoDb"]}
+                            links={[
+                                {label: "API", url: "https://devbootcamps.onrender.com/"},
+                            ]}
                         />
 
                     </div>
