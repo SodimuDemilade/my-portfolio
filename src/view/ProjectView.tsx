@@ -19,31 +19,27 @@ export const ProjectView = () => {
                     <div className="space-y-8 pt-4">
                         <ProjectCard
                             emoji="💻"
+                            title="DevBootcamp"
+                            description="A full-stack bootcamp discovery platform that enables users to browse bootcamps, enroll in programs, save favorites, write reviews, and manage courses through dedicated publisher and administrator dashboards. Built with React, TypeScript, Node.js, Express, MongoDB, and Redux Toolkit."
+                            image="/images/bootcamp.png"
+                            gradient="from-red-400 to-pink-500 dark:from-red-500 dark:to-pink-600"
+                            tags={["JavaScript", "TypeScript", "React", "Express", "Node", "MongoDb"]}
+                            links={[
+                                {
+                                    label: "https://bootcamp-frontend-puce.vercel.app/",
+                                    url: "https://bootcamp-frontend-puce.vercel.app/"
+                                },
+                            ]}
+                        />
+                        <ProjectCard
+                            emoji="💻"
                             title="Jobbie"
                             description="This job portal is a modern web application designed to help job seekers discover opportunities and manage their job search more efficiently. The platform allows users to browse available job listings, filter roles by location, skills, and employment type, and view detailed job descriptions to better understand each opportunity."
                             image="/images/job.png"
                             gradient="from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600"
                             tags={["TypeScript", "React", "CSS"]}
-                        />
-
-                        <ProjectCard
-                            emoji="🚀"
-                            title="My Space"
-                            description="A Django-based web platform for people who love space, astronomy, and everything cosmic. Users can connect with others who share their passion by joining or creating interest-based groups where they can post content and engage in discussions."
-                            image="/images/space.jpg"
-                            gradient="from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600"
-                            tags={["Python", "Django", "Bootstrap", "HTML", "CSS", "SQLite"]}
-                        />
-
-                        <ProjectCard
-                            emoji="💻"
-                            title="DevBootcamp"
-                            description="A Backend API for the DevBootcamp application to manage bootcamps, courses, reviews, users and authentication."
-                            image="/images/bootcamp.png"
-                            gradient="from-red-400 to-pink-500 dark:from-red-500 dark:to-pink-600"
-                            tags={["JavaScript", "Express", "Node", "MongoDb"]}
                             links={[
-                                {label: "API", url: "https://devbootcamps.onrender.com/"},
+                                {label: "https://jobbie-zeta.vercel.app/", url: "https://jobbie-zeta.vercel.app/"},
                             ]}
                         />
 
@@ -64,6 +60,7 @@ export const ProjectView = () => {
                                 tags={["Python", "Django", "Bootstrap", "HTML", "CSS", "SQLite"]}
                                 links={[
                                     {label: "GitHub", url: "https://github.com/SodimuDemilade/blog_project"},
+                                    // {label: "URL", url: "https://jobbie-zeta.vercel.app/"}
                                 ]}
                             />
 
@@ -74,9 +71,36 @@ export const ProjectView = () => {
                                 tags={["React", "TypeScript", "Node", "CSS"]}
                                 links={[
                                     {label: "GitHub", url: "https://github.com/SodimuDemilade/OS-Admin-Dashboard"},
+                                    {label: "URL", url: "https://os-admin-dashboard-puce.vercel.app/"}
                                 ]}
                             />
 
+                            <SmallProjectCard
+                                emoji="🚀"
+                                title="My Space"
+                                description="A Django-based web platform for people who love space, astronomy, and everything cosmic. Users can connect with others who share their passion by joining or creating interest-based groups where they can post content and engage in discussions."
+                                // image="/images/space.jpg"
+                                // gradient="from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600"
+                                tags={["Python", "Django", "Bootstrap", "HTML", "CSS", "SQLite"]}
+                                links={[
+                                    {label: "Github", url: "https://github.com/SodimuDemilade/my_space"}
+                                ]}
+                            />
+
+                            <SmallProjectCard
+                                emoji="🚀"
+                                title="Expense Tracker"
+                                description="A backend API for a = personal expense tracking application built with Java Spring Boot that enables users to manage income and expenses, categorize transactions, and monitor spending through secure authentication and persistent data storage."
+                                // image="/images/space.jpg"
+                                // gradient="from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600"
+                                tags={["Java", "Spring Boot", "PostgreSQL"]}
+                                links={[
+                                    {
+                                        label: "Github",
+                                        url: "https://github.com/SodimuDemilade/personal-expense-tracker-backend"
+                                    }
+                                ]}
+                            />
                         </div>
                     </div>
 
