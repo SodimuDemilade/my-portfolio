@@ -103,6 +103,46 @@ export const ExperienceView = () => {
                         {/* Experience Card Component */}
                         <ExperienceItem
                             icon="🏦"
+                            company="Handshake AI"
+                            title="AI Trainer"
+                            location="Atlanta, Georgia"
+                            period="May 2026 - Present"
+                            bullets={[
+                                "Evaluated AI-generated software engineering solutions using structured evaluation frameworks, providing detailed technical feedback to improve model performance and reliability.",
+                                "Evaluated code quality, technical reasoning, software design, and communication using structured engineering evaluation frameworks.",
+                                "Identified edge cases, inconsistencies, and failure modes in AI-generated responses to improve the robustness of coding assistants.",
+                                "Authored comprehensive written evaluations and comparative analyses that informed model refinement and enhanced the quality of AI-assisted software engineering workflows.",
+                                "Collaborated with cross-functional teams to ensure consistent evaluation standards while maintaining high-quality assessments across diverse software engineering tasks."
+                            ]}
+                            skills={[
+                                "Prompt Engineering",
+                                "LLM",
+                                "Rubrics Generation & Evaluation"
+                            ]}
+                        />
+                        <ExperienceItem
+                            icon="🏦"
+                            company="Walletpal LLC"
+                            title="Co-Founder & Frontend Engineer"
+                            location="Atlanta, Georgia"
+                            period="April 2026 - Present"
+                            bullets={[
+                                "Led frontend development of a fintech platform using React and TypeScript to digitize Rotating Savings and Credit Associations (ROSCAs) and designing scalable architecture.",
+                                "Carried out user research and converted client needs into scalable frontend solutions, user flows, and MVP requirements.",
+                                "Created frontend architecture and responsive, reusable UI components to facilitate long-term scalability and maintainability.",
+                                "Collaborated with backend engineers to define and integrate REST API supporting scalable frontend architecture and future AI-powered platform capabilities.",
+                                "Drove the creation of a cutting-edge, user-focused financial platform while contributing to technical planning, feature prioritization, and product strategy."
+                            ]}
+                            skills={[
+                                "React",
+                                "TypeScript",
+                                "Redux Toolkit",
+                                "LLM API",
+                                "Jest"
+                            ]}
+                        />
+                        <ExperienceItem
+                            icon="🏦"
                             company="Qucoon"
                             title="Software Engineer"
                             location="Lagos, Nigeria"
