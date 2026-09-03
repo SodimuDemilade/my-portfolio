@@ -23,7 +23,12 @@ export const LandingView = () => {
                             I'm a Software Engineer with experience building and maintaining complex web
                             applications. Proficient in React, TypeScript, and JavaScript,
                             with backend experience using Java (Spring Boot), Python (Django) and
-                            JavaScript (Express). In my free time, I enjoy reading, watching movies, travelling and
+                            JavaScript (Express). Experienced integrating LLM APIs with application data
+                            and RESTful services, with hands-on exposure to RAG applications, AI evaluation,
+                            prompt engineering, data engineering, and cloud-based development.
+                            Strong background building enterprise applications, APIs, data pipelines, and reliable
+                            software solutions across financial technology and analytics environments.
+                            In my free time, I enjoy reading, watching movies, travelling and
                             spending time with friends.
                             Say hi!
                         </p>

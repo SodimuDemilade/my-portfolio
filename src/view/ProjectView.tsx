@@ -42,6 +42,17 @@ export const ProjectView = () => {
                                 {label: "https://jobbie-zeta.vercel.app/", url: "https://jobbie-zeta.vercel.app/"},
                             ]}
                         />
+                        <ProjectCard
+                            emoji="💻"
+                            title="RAG AI Coffee Recommendation Agent"
+                            description="Built a Retrieval-Augmented Generation (RAG) AI agent using Python and Google ADK to provide contextual coffee recommendations through tool-based data retrieval. Developed a Streamlit interface and deployed the GenAI application to Google Cloud Run, gaining hands-on experience with AI agents, RAG architecture, and cloud-based AI application deployment."
+                            image="/images/RAG.jpg"
+                            gradient="from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600"
+                            tags={["Python", "Google Cloud", "Google ADK", "Streamlit", "AI Agents", "RAG"]}
+                            // links={[
+                            //     {label: "https://jobbie-zeta.vercel.app/", url: "https://jobbie-zeta.vercel.app/"},
+                            // ]}
+                        />
 
                     </div>
 
